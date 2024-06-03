@@ -37,8 +37,8 @@ launch.py
 
 .pytest*
 
-# pseudo
-# pseudo/
+pseudo
+pseudo/
 
 # train.sh
 # test.sh
