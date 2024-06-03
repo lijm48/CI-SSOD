@@ -84,8 +84,8 @@ make install
 Note that you may need to modify the version of torch, torchvision and mmcv-full based on your cuda version.
 mmcv-full can be installed by:
 ```
-# mmcv > 1.3.8 and <1.4.0
 pip install mmcv-full==1.3.12 -f https://download.openmmlab.com/mmcv/dist/YOUR_CUDA_VERSION/YOUR_TORCH_VERSION/index.html
+# mmcv > 1.3.8 and <1.4.0
 # pip install mmcv-full==1.3.12  -f https://download.openmmlab.com/mmcv/dist/cu113/torch1.9.0/index.html
 ```
 
