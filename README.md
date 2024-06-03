@@ -34,7 +34,7 @@ CISSOD/
 
 #### MS-COCO → Object365
 - Download the COCO2017 dataset(including training and instances_train2017.json) from [this link](https://cocodataset.org/#download).
-- Download the Object365dataset(including training and val images) from .
+- Download the Object365dataset(including training and val images) from .[this link](https://www.objects365.org/download.html)
 - Download the annotations from [Google Drive](https://drive.google.com/drive/folders/11ggu8fnimMDS8w2dcqUTLs2xtyNceuCO).
 - Organize the data as the following structure(or rewrite the path in configs as you need):
 ```
@@ -47,6 +47,11 @@ CISSOD/
                 instances_train2017.json
 
         Object365/
+            images/
+            annotations/
+                zhiyuan_objv2_train_object365_label.json
+                zhiyuan_objv2_train_object365_unlabel.json
+                zhiyuan_objv2_val.json
            
 
 ```
