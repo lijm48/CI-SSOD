@@ -12,7 +12,7 @@ Reproducing the results. -->
 6. [] Modify the initial code for robustness. -->
 
 ## Usage:
-### Date preparation
+### Data preparation
 
 #### MS-COCO sub-task
 - Download the COCO2017 dataset(including training and val images) from [this link](https://cocodataset.org/#download).
